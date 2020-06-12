@@ -1,0 +1,12 @@
+import './style.scss';
+import './modules/carousel/carousel';
+import './modules/carousel/carousel.scss';
+import './modules/search/search';
+import './modules/search/search.scss';
+import './modules/footer/footer.scss';
+import './modules/API/response';
+import './modules/keyboard/enKeyboard.json';
+import './modules/keyboard/keyboard';
+import './modules/keyboard/ruKeyboard.json';
+import './modules/keyboard/keyboard.scss';
+import './modules/search/virtualKeyboard';

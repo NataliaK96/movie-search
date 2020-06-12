@@ -1,0 +1,84 @@
+.keyboard-content {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 210px;
+  display: none;
+}
+.keyboard {
+  margin: auto;
+  width: 820px;
+  border: 15px solid;
+  border-radius: 10px;
+  border-color: rgb(160, 160, 160);
+  &__row {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+  }
+  &__key {
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    margin: 4px;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 25%;
+    line-height: 50px;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(141, 101, 113);
+    }
+  }
+}
+.functional {
+  background-color: rgb(32, 32, 32);
+  font-size: 24px;
+}
+.keyboard__key.active {
+  animation: linear 0.2s keyClick;
+  animation-fill-mode: forwards;
+}
+#Space {
+  width: 410px;
+  border-radius: 5px;
+}
+#Backspace {
+  width: 80px;
+  border-radius: 10px;
+}
+#Tab {
+  width: 110px;
+  border-radius: 10px;
+}
+#Delete {
+  width: 55px;
+  border-radius: 10px;
+}
+#CapsLock {
+  width: 90px;
+  border-radius: 10px;
+}
+#Enter {
+  width: 70px;
+  border-radius: 10px;
+}
+#ShiftLeft {
+  width: 110px;
+  border-radius: 10px;
+}
+#ShiftRight {
+  width: 110px;
+  border-radius: 10px;
+}
+
+@keyframes keyClick {
+  0% {
+  }
+  100% {
+    border-radius: 50%;
+    background-color: rgb(154, 231, 212);
+  }
+}

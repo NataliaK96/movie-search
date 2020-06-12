@@ -1,0 +1,50 @@
+h1 {
+  margin: 0;
+  text-align: center;
+  height: 60px;
+  margin-top: 20px;
+}
+.body {
+  background-color: black;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.main {
+  background-image: url(./img/moves.jpg);
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  flex-grow: 1;
+}
+.concord-img-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.content {
+  padding-top: 10px;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  height: 100%;
+}
+
+.result-response {
+  margin-top: 10px;
+  height: 25px;
+}

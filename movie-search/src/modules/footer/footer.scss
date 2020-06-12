@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-weight: bold;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: gray;
+}
+
+.github-icon {
+  width: 40px;
+}
+.school {
+  padding-top: 10px;
+}
+.school:hover {
+  cursor: pointer;
+}
+.github:hover {
+  cursor: pointer;
+}
+a {
+  color: gray;
+  &:hover {
+    color: #cccbcb;
+  }
+}
